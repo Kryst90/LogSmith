@@ -41,4 +41,4 @@ File is named: Flashing raport from <FOLDER_NAME>.csv
 
 ## License
 
-MIT License – free to use, modify, and distribute.
+MIT License – free to use, modify.
