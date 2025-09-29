@@ -33,7 +33,7 @@ python "Flashing records.py"
 When prompted, enter the full path to the folder containing the PDF files.
 A CSV report will be created in the same folder.
 
-##Output
+## Output
 
 CSV file is saved in the same folder as the input PDFs
 
