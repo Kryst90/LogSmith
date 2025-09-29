@@ -33,12 +33,12 @@ python "Flashing records.py"
 When prompted, enter the full path to the folder containing the PDF files.
 A CSV report will be created in the same folder.
 
-Output
+##Output
 
 CSV file is saved in the same folder as the input PDFs
 
 File is named: Flashing raport from <FOLDER_NAME>.csv
 
-License
+##License
 
 MIT License – free to use, modify, and distribute.
