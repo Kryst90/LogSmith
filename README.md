@@ -1,5 +1,6 @@
-# LogSmith
-A Python script that copies machine log files from a specified source location to a destination folder, then parses the logs and generates a structured CSV file with extracted data.
+# Flashing Records to CSV
+
+A simple Python script that processes machine flashing records stored as PDF file names, extracts structured data from the filenames, and generates a CSV report.
 
 ## How It Works
 This script:
@@ -13,7 +14,14 @@ Suppose the folder contains these files:
 123_Product1_OK_456_SOCKET1_2023-09-29_14-35.pdf
 124_Product2_FAIL_789_SOCKET2_2023-09-29_15-20.pdf
 
+yaml
+Skopiuj kod
+
 The script will generate:
+Flashing raport from 29-09-2023.csv
+
+markdown
+Skopiuj kod
 
 With contents like:
 | Product | Machine | Status | ID  | SOCKET  | Date       | Time   |
@@ -27,18 +35,16 @@ With contents like:
 
 ## Usage
 Run the script in your terminal:
-
-python "Flashing records.py"
-
+```bash
+python "LogSmith.py"
 When prompted, enter the full path to the folder containing the PDF files.
 A CSV report will be created in the same folder.
-
+```
 ## Output
-
 CSV file is saved in the same folder as the input PDFs
 
 File is named: Flashing raport from <FOLDER_NAME>.csv
 
 ## License
+MIT License – free to use and modify
 
-MIT License – free to use, modify.
