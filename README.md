@@ -1,4 +1,4 @@
-# Flashing Records to CSV
+# LogSmith
 
 A simple Python script that processes machine flashing records stored as PDF file names, extracts structured data from the filenames, and generates a CSV report.
 
