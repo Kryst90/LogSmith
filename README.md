@@ -39,6 +39,6 @@ CSV file is saved in the same folder as the input PDFs
 
 File is named: Flashing raport from <FOLDER_NAME>.csv
 
-##License
+## License
 
 MIT License – free to use, modify, and distribute.
